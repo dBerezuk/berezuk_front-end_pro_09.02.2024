@@ -31,8 +31,7 @@ if(place === 'київ') {
     placeMessage = 'Ти живеш у столиці Великобританії';
 } else if(place) {
     placeMessage = `Ти живеш у місті - ${place[0].toUpperCase() + place.slice(1)}`;
-}
-else{
+} else{
     placeMessage = 'Місце: Не вказано';
 }
 
