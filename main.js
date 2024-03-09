@@ -1,3 +1,5 @@
+'use strict';
+
 const pow = (num, degree) => {
     if(degree === 1) {
         return num;
