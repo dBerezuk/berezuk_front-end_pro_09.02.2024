@@ -10,7 +10,7 @@ const arithmetic = (arr) => {
 
     arr.forEach(num => {
         if(typeof num === 'number' && isFinite(num)) {
-            count += 1;
+            count++;
             summa += num;
         }
     });
