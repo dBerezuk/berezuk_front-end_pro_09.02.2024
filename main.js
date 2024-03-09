@@ -8,4 +8,4 @@ const pow = (num, degree) => {
     }
 }
 
-console.log(pow(2, 4));
+console.log( pow(2, 4) );
