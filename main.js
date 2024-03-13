@@ -145,13 +145,14 @@ console.log( productPositiveNumbers(arr) );
 
 //10.
 const maxElemTask = (arr = []) => {
-    let maxNum = Math.max(...arr);
-    let indexMaxNum = arr.indexOf(maxNum);
+    // let maxNum = Math.max(...arr);
+    // let indexMaxNum = arr.indexOf(maxNum);
+    const data = maxElem(arr);
 
-    arr.fill(0, 0, indexMaxNum);
-    arr.fill(0, indexMaxNum + 1);
+    arr.fill(0, 0, data.index);
+    arr.fill(0, data.index + 1);
 
-    console.log('Max number: ' + maxNum, arr);
+    console.log('Max number: ' + data.maxNum, arr);
 }
 
 maxElemTask(arr);
