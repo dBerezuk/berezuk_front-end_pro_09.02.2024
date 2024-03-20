@@ -1,8 +1,6 @@
 'use strict';
 
-const action = () => {
-    let sum = 0;
-
+const action = (sum = 0) => {
     return num => {
         sum += num;
         console.log(sum);
