@@ -1,6 +1,6 @@
 const styleSum = sum => sum.toLocaleString('en-US', { style: 'currency', currency: 'USD' });
 
-const usersAction = () => {
+const usersAction = (users) => {
     const phones = [];
     let sum = 0;
     let totalSum = 0;
